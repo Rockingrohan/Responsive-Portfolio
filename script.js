@@ -18,6 +18,7 @@ window.onscroll = () => {
             navLinks.forEach(links =>{
                 links.classList.add('active');
                 document.querySelector('header nav a[heref*=' + id + ']').classList.add('active');
+                
             })
         }
     });
